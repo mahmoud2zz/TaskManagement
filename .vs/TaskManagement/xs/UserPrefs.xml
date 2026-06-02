@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{C6EF5D8E-3CE1-467D-A251-87E2C615B46D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TaskManagement PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskManagement" expanded="True">
+            <Node name="TaskManagement" expanded="True">
+              <Node name="Api" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Middlewares" expanded="True" />
+              </Node>
+              <Node name="Application" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="Auth" expanded="True" />
+                  <Node name="Tasks" expanded="True" />
+                  <Node name="Users" expanded="True">
+                    <Node name="UserService.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="Shared" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

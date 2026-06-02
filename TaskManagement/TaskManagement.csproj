@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.0" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.0">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="6.0.1" />
+</ItemGroup>
+  <ItemGroup>
+    <None Remove="Application\" />
+    <None Remove="Domain\" />
+    <None Remove="Application\DTOs\" />
+    <None Remove="Application\Services\" />
+    <None Remove="Domain\Entities\" />
+    <None Remove="Domain\Enums\" />
+    <None Remove="Infrastructure\" />
+    <None Remove="Infrastructure\Data\" />
+    <None Remove="Infrastructure\Repositories\" />
+    <None Remove="Shared\" />
+    <None Remove="Shared\Helpers\" />
+    <None Remove="Shared\Responses\" />
+    <None Remove="Shared\Settings\" />
+    <None Remove="Application\Services\Auth\" />
+    <None Remove="Api\" />
+    <None Remove="Api\Controllers\" />
+    <None Remove="Infrastructure\Seeding\" />
+    <None Remove="Application\Services\Users\" />
+    <None Remove="Infrastructure\Repositories\Users\" />
+    <None Remove="Infrastructure\Repositories\Tasks\" />
+    <None Remove="Application\Services\Tasks\" />
+    <None Remove="Application\Common\" />
+    <None Remove="Application\Common\Queues\" />
+    <None Remove="Infrastructure\BackgroundServices\" />
+    <None Remove="Api\Middlewares\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Application\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Application\DTOs\" />
+    <Folder Include="Application\Services\" />
+    <Folder Include="Domain\Entities\" />
+    <Folder Include="Domain\Enums\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Infrastructure\Data\" />
+    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Shared\Helpers\" />
+    <Folder Include="Shared\Responses\" />
+    <Folder Include="Shared\Settings\" />
+    <Folder Include="Application\Services\Auth\" />
+    <Folder Include="Api\" />
+    <Folder Include="Api\Controllers\" />
+    <Folder Include="Infrastructure\Seeding\" />
+    <Folder Include="Application\Services\Users\" />
+    <Folder Include="Infrastructure\Repositories\Users\" />
+    <Folder Include="Infrastructure\Repositories\Tasks\" />
+    <Folder Include="Application\Services\Tasks\" />
+    <Folder Include="Application\Common\" />
+    <Folder Include="Application\Common\Queues\" />
+    <Folder Include="Infrastructure\BackgroundServices\" />
+    <Folder Include="Api\Middlewares\" />
+  </ItemGroup>
+</Project>
